@@ -41,9 +41,10 @@ button {
     cursor: pointer;
 }
 
-img{
+img {
     border-radius: 16px;
 }
+
 /* root css end  */
 
 
@@ -92,7 +93,8 @@ img{
     border-radius: 16px;
 }
 
-.banner-section h1, .banner-section p {
+.banner-section h1,
+.banner-section p {
     color: white;
 }
 
@@ -125,53 +127,155 @@ img{
     width: 174px;
     height: 52px;
 }
-.search-icon{
+
+.search-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
 }
-.search-icon img{
+
+.search-icon img {
     width: 18px;
     height: 18px;
     margin-right: 8px;
 }
 
 /* Popular Tours section end */
-.popular-tours-section{
-    display: flex ;
+.popular-tours-section {
+    display: flex;
     margin: 50px auto;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
-.destination-container{
+
+.destination-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.destination-content{
+
+.destination-content {
     width: 650px;
 }
 
-.destination-items{
+/* .destination-items{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+} */
+.destination-items-section {
+    display: flex;
     gap: 20px;
-}
-.destination-items-section{
-    gap: 50px;
-    width: 49%;
-}
-.maldives{
-    background: url('./assest/Maldives.png');
-    object-fit: cover;
+    margin: 20px 0px;
+    width: 1170px;
 
 }
-.destination-items-section{
+
+.destination-info {
+    flex: 1;
+}
+
+.destination-info h1 {
+    font-size: 28px;
+}
+
+.maldives {
+    width: 100%;
+    height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: url('./assest/Maldives.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 50%;
+}
+
+.indonesia {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assest/indonesia.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 50%;
+}
+
+.Srilanka {
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assest/Srilanka.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 30%;
+}
+
+.north-america {
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assest/North\ America.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 40%;
+}
+
+.kashmir {
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assest/Kashmir.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 20%;
+}
+
+.bangladesh {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assest/Bangladesh.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 42%;
+}
+
+.bandarban {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assest/Bandarban.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    color: white;
+    flex-basis: 58%;
 }
