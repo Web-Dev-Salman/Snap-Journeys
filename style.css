@@ -145,3 +145,33 @@ img{
     align-items: center;
     gap: 50px;
 }
+.destination-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.destination-content{
+    width: 650px;
+}
+
+.destination-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.destination-items-section{
+    gap: 50px;
+    width: 49%;
+}
+.maldives{
+    background: url('./assest/Maldives.png');
+    object-fit: cover;
+
+}
+.destination-items-section{
+    display: flex;
+    justify-content: center;
+}
