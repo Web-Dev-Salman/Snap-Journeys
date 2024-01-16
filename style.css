@@ -342,11 +342,12 @@ img {
     background: rgba(251, 181, 99, 0.05);
 }
 
-.deals{
+.deals {
     position: relative;
     display: flex;
     flex-direction: column;
 }
+
 .deals-content {
     text-align: center;
     width: 645px;
@@ -424,4 +425,53 @@ img {
     padding: 10px 20px;
     cursor: pointer;
     margin: 20px auto;
+}
+
+.newsletter-section {
+    display: flex;
+    gap: 20px;
+
+}
+
+.newsletter-form-section {
+    flex-basis: 45%;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-form input#name,
+.newsletter-form input#email {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 16px;
+}
+
+#form-button {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.newsletter-promo {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.newsletter-discount {
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+    bottom: 12%;
 }
