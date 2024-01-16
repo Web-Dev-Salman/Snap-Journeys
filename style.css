@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Mulish', sans-serif;
-
+    margin: 0;
 }
 
 :root {
@@ -26,6 +26,7 @@ h2 {
 h3 {
     font-size: 34px;
 }
+
 h4 {
     font-size: 24px;
 }
@@ -165,9 +166,6 @@ img {
     width: 650px;
 }
 
-/* .destination-items{
-    display: flex;
-} */
 .destination-items-section {
     display: flex;
     gap: 20px;
@@ -286,10 +284,18 @@ img {
 .why-choose-us-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .why-choose-us-content {
     text-align: center;
+    width: 645px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.why-choose-us-content h2 {
+    margin-bottom: 20px;
 }
 
 .why-choose-us-items {
@@ -303,13 +309,16 @@ img {
     flex-basis: calc(50% - 77px);
     padding: 32px;
 }
-.why-choose-us-list h4{
-   margin: 32px 0px 16px 0px;
+
+.why-choose-us-list h4 {
+    margin: 32px 0px 16px 0px;
 }
-.why-choose-us-list p{
-   margin: 0px;
+
+.why-choose-us-list p {
+    margin: 0px;
 }
-.why-choose-us-list img{
+
+.why-choose-us-list img {
     width: 64px;
     height: 64px;
     border-radius: 0;
@@ -331,4 +340,88 @@ img {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+}
+
+.deals{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.deals-content {
+    text-align: center;
+    width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.deals-item-content:nth-child(1) {
+    background: url('assest/Group\ 39.png');
+    border-radius: 16px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 50px;
+}
+
+.deals-item-content:nth-child(2) {
+    background: url('assest/Group\ 39.png');
+    border-radius: 16px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin: 30px 0px;
+
+}
+
+.deals-item-content:nth-child(3) {
+    background: url('assest/Group\ 39.png');
+    border-radius: 16px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 50px;
+}
+
+.deals-item-list {
+    width: 579px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.deals-item-list .features {
+    display: flex;
+    gap: 20px;
+}
+
+.see-all-packages {
+    width: auto;
+    text-align: center !important;
+    background-color: var(--second-color);
+    color: black;
+    border: none;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px auto;
 }
