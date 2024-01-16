@@ -26,6 +26,9 @@ h2 {
 h3 {
     font-size: 34px;
 }
+h4 {
+    font-size: 24px;
+}
 
 p {
     font-size: 18px;
@@ -278,4 +281,54 @@ img {
     border-radius: 16px;
     color: white;
     flex-basis: 58%;
+}
+
+.why-choose-us-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-choose-us-content {
+    text-align: center;
+}
+
+.why-choose-us-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.why-choose-us-list {
+    flex-basis: calc(50% - 77px);
+    padding: 32px;
+}
+.why-choose-us-list h4{
+   margin: 32px 0px 16px 0px;
+}
+.why-choose-us-list p{
+   margin: 0px;
+}
+.why-choose-us-list img{
+    width: 64px;
+    height: 64px;
+    border-radius: 0;
+}
+
+.why-choose-us-list:nth-child(1) {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-us-list:nth-child(2) {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-us-list:nth-child(3) {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
