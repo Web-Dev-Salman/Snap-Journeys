@@ -48,32 +48,33 @@ button {
 img {
     border-radius: 16px;
 }
+
 /* root css mobile responsive  */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .container {
         padding: 0px 20px;
     }
-    
+
     h1 {
         font-size: 30px;
     }
-    
+
     h2 {
         font-size: 24px;
     }
-    
+
     h3 {
         font-size: 22px;
     }
-    
+
     h4 {
         font-size: 18px;
     }
-    
+
     p {
         font-size: 16px;
     }
-    
+
     button {
         background-color: var(--second-color);
         color: black;
@@ -83,7 +84,7 @@ img {
         padding: 10px 20px;
         cursor: pointer;
     }
-    
+
     img {
         border-radius: 16px;
     }
@@ -125,17 +126,20 @@ img {
 .active {
     color: var(--first-color);
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
+
 /* header mobile responsive  */
-@media only screen and (max-width: 600px){
-    .nav-list{
+@media only screen and (max-width: 600px) {
+    .nav-list {
         display: none;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
-        width:40px;
+        width: 40px;
         height: 40px;
     }
 }
@@ -157,11 +161,13 @@ img {
 .banner-section p {
     color: white;
 }
+
 .banner-section p {
     width: 600px;
     text-align: center;
     padding: 20px 0px 50px 0px;
 }
+
 .select-section {
     display: flex;
     gap: 25px;
@@ -169,6 +175,7 @@ img {
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
 }
+
 .input-field {
     border-radius: 8px;
     background: #FFF;
@@ -196,27 +203,37 @@ img {
     height: 18px;
     margin-right: 8px;
 }
+
 /* banner section responsive start  */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+    .section.container.banner-section {
+        margin: 0px 20px;
+    }
+
     .banner-section {
         flex-direction: column;
         padding: 20px;
         height: 630px;
     }
-    .banner-section h1{
+
+    .banner-section h1 {
         text-align: center;
     }
+
     .banner-section p {
-        width: 350px;
+        width: 300px;
         text-align: center;
     }
-    .select-section{
+
+    .select-section {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .input-field,.select-section button {
-        width: 300px;
+
+    .input-field,
+    .select-section button {
+        width: 250px;
     }
 }
 
@@ -231,28 +248,33 @@ img {
     align-items: center;
     gap: 50px;
 }
+
 .popular-tours-content p,
 .popular-tours-content ul {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 .popular-tours-content ul li {
     margin-top: 14px;
 }
+
 .popular-tours-button {
     width: 174px;
     height: 52px;
 }
+
 /* Popular Tours section responsive  */
-.popular-tours-section {
-    flex-direction: column;
-}
-.popular-tours-section img{
-    width: 100%;
-    margin: 0 auto;
-}
+@media only screen and (max-width: 600px) {
+    .popular-tours-section {
+        flex-direction: column;
+    }
 
-
+    .popular-tours-section img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 
 
 /* Destination section */
@@ -272,6 +294,7 @@ img {
 .destination-content p {
     margin: 25px 0px 48px 0px;
 }
+
 .destination-items-section {
     display: flex;
     gap: 20px;
@@ -279,6 +302,7 @@ img {
     width: 1170px;
 
 }
+
 .destination-info {
     flex: 1;
 }
@@ -394,69 +418,71 @@ img {
 }
 
 /* destination section responsive  */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .destination-content {
-        width: 450px;
+        width: 300px;
     }
-    .destination-items-section {
-        flex-direction: column;
-        margin:0px;
-        }
-    
+
     .destination-info h1 {
         font-size: 20px;
     }
+
     .destination-items-section {
         display: block;
-        gap: 10px;
-        margin:0px;    
+        margin: 0px;
+        width: auto;
     }
+
     .maldives {
-        width: 100%;
-        height: 250px;
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-        flex-basis: 100%;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        padding: 0;
     }
-    
+
     .indonesia {
-        width: 100%;
-        height: 250px;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin: 20px 0px;
     }
-    
+
     .Srilanka {
-        width: 100%;
-        height: 250px;
-        color: white;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
 
     }
-    
+
     .north-america {
-        width: 100%;
-        height: 250px;
-        flex-basis: 100%;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin: 20px 0px;
+
 
     }
-    
+
     .kashmir {
-        width: 100%;
-        height: 250px;
-        flex-basis: 100%;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
 
     }
-    
+
     .bangladesh {
-        width: 100%;
-        height: 250px;
-        flex-basis: 100%;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin: 20px 0px;
+
 
     }
-    
+
     .bandarban {
-        width: 100%;
-        height: 250px;
-        flex-basis: 100%;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
     }
 }
 
@@ -478,6 +504,10 @@ img {
 
 .why-choose-us-content h2 {
     margin-bottom: 20px;
+}
+
+.why-choose-us-content p {
+    width: 650px;
 }
 
 .why-choose-us-items {
@@ -522,6 +552,19 @@ img {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+}
+
+/* why choose us section responsive  */
+@media only screen and (max-width: 600px) {
+    .why-choose-us-content p {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .why-choose-us-items {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
 
 /* Deals & Discounts section */
@@ -643,6 +686,32 @@ img {
     margin: 20px auto;
 }
 
+/* Deals & Discounts section responsive*/
+@media only screen and (max-width: 600px) {
+    .deals-content {
+        width: 300px;
+    }
+
+    .deals-item-content:nth-child(1),
+    .deals-item-content:nth-child(2),
+    .deals-item-content:nth-child(3) {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .deals-item-list {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .deals-item-list .features {
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+
+}
+
 /* Reviews section start  */
 .reviews-sections {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.589) 0%, rgba(19, 19, 24, 0.20) 100%), url("assest/illustration-famous-monument-green-grass.jpg"), lightgray 50%;
@@ -693,6 +762,19 @@ img {
     align-items: flex-start;
     gap: 10px;
 }
+/* Reviews section responsive  */
+@media only screen and (max-width: 600px){
+    .review-section-content {
+    width: 300px;
+    }
+    .reviews-list {
+        flex-direction: column;
+    }
+
+}
+
+
+
 
 /* Newslatter section */
 .newsletter-section {
@@ -744,7 +826,27 @@ img {
     right: 1%;
     bottom: 12%;
 }
+/* newsletter  responsive css  */
+@media only screen and (max-width:600px){
+    .newsletter-section {
+        flex-direction: column;
+    }
+    .newsletter-promo img{
+        width: 100%;
+    }
+    .newsletter-discount{
+        width: 215px;
+        height: 100px;
+        right: 2%;
+        bottom: 18%;
+    }
+}
 
+
+
+
+
+/* footer section css start  */
 .footer-section {
     background: rgba(19, 19, 24, 0.05);
     height: 500px;
@@ -784,4 +886,10 @@ hr {
     width: 100%;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
+}
+/* footer section responsive  */
+@media only screen and (max-width:600px){
+    .footer-section .container {
+        width: 300px;
+    }   
 }
